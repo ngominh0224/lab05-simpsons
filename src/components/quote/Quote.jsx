@@ -5,7 +5,7 @@ export const Quote = ({ character, text, image }) => (
   <div>
     <p>{character}</p>
     <p>{text}</p>
-    <img src={image} />
+    <img src={image} alt={character} />
   </div>
 );
 
