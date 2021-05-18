@@ -17,9 +17,11 @@ const SimpsonsQuotes = () => {
 
   return (
     <>
-      <Load handleClick={handleClick} />
-      <Quote
-        character={quote.character}
+      <Load 
+        handleClick={handleClick}
+      />
+      <Quote 
+        character={quote.character} 
         text={quote.text}
         image={quote.image}
       />
